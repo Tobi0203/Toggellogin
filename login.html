@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="logincss.css">
+   
+</head>
+<body>
+    <div class="main-cont" id="main-contid">
+        <div class="signup">
+            <form >
+                <h3>create account</h3>
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="username">
+                <input type="password" placeholder="password">
+                <button>sign up</button>
+            </form>
+        </div>
+        <div class="signin">
+            <form >
+                <h3>sign in</h3>
+                <input type="text" placeholder="username">
+                <input type="password" placeholder="password">
+                <a>forget password</a>
+                <button>sign in</button>
+            </form>
+        </div>
+        <div class="toggle-cont">
+            <div class="toggle">
+                <div class="toggle-panel toogle-left">
+                    <h3>welcom user</h3>
+                    <p>if you already have an account</p>
+                    <button class="hidden" id="login">sign in</button>
+                </div>
+                <div class="toggle-panel toogle-right">
+                    <h3>hello user</h3>
+                    <p>if you dont have an account</p>
+                    <button class="hidden" id="register">sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="loginjs.js"></script>
+</body>
+</html>
